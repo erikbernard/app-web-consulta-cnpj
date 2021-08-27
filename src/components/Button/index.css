@@ -1,0 +1,28 @@
+.btn{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 0 8px 8px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+
+/* Blocos */
+
+    color: #FFFFFF;
+    background:var(--primary-color);
+}
+.btn-company{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: var(--primary-color);
+}
