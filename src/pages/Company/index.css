@@ -1,0 +1,30 @@
+.container-company{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-infor-company{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 3rem 0 0 10rem;
+}
+.container-card-company{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 55rem 55rem;
+    left: 10rem;
+    position: relative;
+    margin: 35px 0 0 0;
+}
+.title-campany{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding: 0 2rem 0 0;
+
+    color: var(--title-color);
+}
