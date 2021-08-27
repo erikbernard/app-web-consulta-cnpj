@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './styles/GlobalStyle.css';
+import Routes from './Router';
+import { ApiContextProvider } from './contexts/ApiContext';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ApiContextProvider>
+      <Routes />
+    </ApiContextProvider>
+    </>
   );
 }
-
-export default App;
+// 45:32
+// 1:19:40
+// 1:31:59
