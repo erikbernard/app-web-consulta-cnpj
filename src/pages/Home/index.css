@@ -1,0 +1,64 @@
+.container-home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--title-color);
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #fff;
+}
+.title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #fff;
+}
+.container-infor{
+    margin: 10rem 0 0 16rem;
+}
+.container-infor > div{
+    padding: 4rem 0 4rem 0;
+}
+.container-infor > p{
+    padding: 2rem 0 0 0;
+}
+.input-value{
+    outline: none;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+    width: 28rem;
+    height: 4rem;
+
+    background: linear-gradient(90deg, #6432C5 0%, rgba(108, 44, 234, 0.1) 100%);
+    border-radius: 8px 0px 0px 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 34px;
+    padding-left: 1rem;
+
+    color: #FFFFFF;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
