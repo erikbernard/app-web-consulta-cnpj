@@ -1,0 +1,76 @@
+{
+  "empresas": [
+    {
+      "nome": "Riachuelo participações LTDA",
+      "atividade_principal": "Holdings de instituições financeiras",
+      "abertura": "27/10/2006",
+      "situacao": "Ativa",
+      "cep": "02.526-900",
+      "cnpj": "08.418.947/0001-29",
+      "capital_social": "5000.00",
+      "email": "paulino@riachuelo.com.br",
+      "descricao": "",
+      "id": 1
+    },
+    {
+      "nome": "SERASA S.A.",
+      "atividade_principal": "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica ",
+      "abertura": "23/11/2015",
+      "situacao": "ATIVA",
+      "cep": "13.571-385",
+      "cnpj": "62.173.620/0093-06",
+      "capital_social": "R$ NaN",
+      "email": "atende.serasa@br.experian.com",
+      "descricao": "Empresar da região",
+      "id": 2
+    },
+    {
+      "nome": "002 PERFUMES NITEROI LTDA",
+      "atividade_principal": "********",
+      "abertura": "10/06/1992",
+      "situacao": "INAPTA",
+      "cep": "",
+      "cnpj": "39.501.564/0001-43",
+      "capital_social": "3000.00",
+      "email": "",
+      "descricao": "",
+      "id": 3
+    },
+    {
+      "nome": "004 COMUNICACOES LTDA",
+      "atividade_principal": "Agências de publicidade",
+      "abertura": "23/09/2004",
+      "situacao": "ATIVA",
+      "cep": "54.315-570",
+      "cnpj": "07.023.840/0001-19",
+      "capital_social": "0.00",
+      "email": "",
+      "descricao": "",
+      "id": 4
+    },
+    {
+      "nome": "0054 CLUB DE VINO BEBIDAS LTDA",
+      "atividade_principal": "********",
+      "abertura": "22/11/2004",
+      "situacao": "BAIXADA",
+      "cep": "",
+      "cnpj": "07.126.280/0001-28",
+      "capital_social": "0.00",
+      "email": "",
+      "descricao": "",
+      "id": 5
+    },
+    {
+      "nome": "007 & 007 MOVEIS LTDA",
+      "atividade_principal": "Comércio varejista de móveis",
+      "abertura": "11/07/1995",
+      "situacao": "ATIVA",
+      "cep": "30.514-000",
+      "cnpj": "00.711.033/0001-40",
+      "capital_social": "0.00",
+      "email": "",
+      "descricao": "",
+      "id": 6
+    }
+  ]
+}
