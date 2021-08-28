@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Web consulta CNPJ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p style="display: grid;grid-template-columns: 24.8rem 1fr;">
+    <img src="./src/assets/img/capa01.png"/>
+    <img src="./src/assets/img/capa02.png"/>
+</p>
 
-In the project directory, you can run:
+### 
+### Sobre o projeto
 
-### `yarn start`
+O sistema desenvolvido utilizando API da Receita Federal em conjunto com a dependência `json-server`, onde recupero informações da Receita Federal através de uma consulta utilizando o CNPJ de uma empresar, posteriormente adiciono os dados recebidos em um arquivo `db.json` o qual será utilizado pelo `json-server` para fazer as operações de um CRUD(create, read, update and delete).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tecnologias usadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React with typerscript
 
-### `yarn test`
+Api Restful
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Protótipo do projeto
 
-### `yarn build`
+[Figma: web-projeto](https://www.figma.com/file/p793aVTBmTyU0N3eW4GQiz/web-projeto?node-id=0%3A1)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[GitHub - erikbernard/app-web-consulta-cnpj](https://github.com/erikbernard/app-web-consulta-cnpj)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Executa o projeto
 
-### `yarn eject`
+```jsx
+//install
+yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+//start o nosso fron-end 
+yarn start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+//start o nosso back-end fake
+//port tem que ser diferente do front
+npx json-server ./api/db.json -p 333
+```
